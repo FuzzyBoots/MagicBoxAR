@@ -141,7 +141,7 @@ MonoBehaviour:
   m_XROrigin: {fileID: 0}
   m_ExcludeUITouches: 1
   m_ARSessionOrigin: {fileID: 0}
-  m_SelectionVisualization: {fileID: 0}
+  m_SelectionVisualization: {fileID: 8529731862338636005}
 --- !u!114 &6587242791126435147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -441,6 +441,12 @@ CapsuleCollider:
 --- !u!4 &4375232157787105929 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8691354840242315797, guid: 29f894301ff01884685aead0f21f27ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 4911764022191704220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8529731862338636005 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3635995572491599993, guid: 29f894301ff01884685aead0f21f27ad,
     type: 3}
   m_PrefabInstance: {fileID: 4911764022191704220}
   m_PrefabAsset: {fileID: 0}
