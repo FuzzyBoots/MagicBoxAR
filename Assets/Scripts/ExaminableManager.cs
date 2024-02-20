@@ -7,15 +7,12 @@ public class ExaminableManager : MonoBehaviour
     [SerializeField]
     Transform _examineTarget;
 
-    // Start is called before the first frame update
-    void Start()
+    public void PerformExamination(Examinable target)
     {
-        
-    }
+        if (target == null || _examineTarget == null) return;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        target.transform.position = _examineTarget.position;
+
+        target.transform.parent = _examineTarget;
     }
 }

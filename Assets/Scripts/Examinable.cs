@@ -11,9 +11,8 @@ public class Examinable : MonoBehaviour
         _manager = FindObjectOfType<ExaminableManager>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PerformExamine()
     {
-        
+        _manager.PerformExamination(this);
     }
 }
