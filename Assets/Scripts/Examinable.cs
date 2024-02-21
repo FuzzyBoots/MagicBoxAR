@@ -11,8 +11,15 @@ public class Examinable : MonoBehaviour
         _manager = FindObjectOfType<ExaminableManager>();
     }
 
-    public void PerformExamine()
+    public void RequestExamine()
     {
+        Debug.Log("Requesting Examine");
         _manager.PerformExamination(this);
+    }
+
+    public void RequestUnexamine()
+    {
+        Debug.Log("Requesting Unexamine");
+        _manager.Unexamine();
     }
 }
