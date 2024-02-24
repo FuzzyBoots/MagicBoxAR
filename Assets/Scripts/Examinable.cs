@@ -5,6 +5,8 @@ using UnityEngine;
 public class Examinable : MonoBehaviour
 {
     [SerializeField] ExaminableManager _manager;
+    [SerializeField] float examineScaleOffset = 1f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,4 +24,6 @@ public class Examinable : MonoBehaviour
         Debug.Log("Requesting Unexamine");
         _manager.Unexamine();
     }
+
+    public float ExamineScaleOffset() { return examineScaleOffset; }
 }
