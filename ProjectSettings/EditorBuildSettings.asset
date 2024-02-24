@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MagicBoxScene.unity
+    guid: 32a0ec9d76f85cc4e83b5e571a0a1fea
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ARObjectPlacer.unity
     guid: bf07fa8cd0eba1f4fa33e8c7b24bc3f6
   m_configObjects:
