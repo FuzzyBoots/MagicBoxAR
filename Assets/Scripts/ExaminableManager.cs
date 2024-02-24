@@ -31,7 +31,11 @@ public class ExaminableManager : MonoBehaviour
 
     public void PerformExamination(Examinable target)
     {
-        if (target == null || _examineTarget == null) return;
+        if (target == null || _examineTarget == null)
+        {
+            Debug.Log($"Examine failed: Target: {target} examineTarget: {_examineTarget}");
+            return; 
+        }
 
         _examinedObject = target;
 
