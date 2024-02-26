@@ -20,13 +20,15 @@ public class BoxManager : MonoBehaviour
         
     public void GemSelect(Gem curGem)
     {
-        print(curGem.Color);
+        print(curGem.GemColor);
         // Enqueue the gem color
-        _queue.Enqueue(curGem.Color);
+        _queue.Enqueue(curGem.GemColor);
         print (_queue.ToCommaSeparatedString());
 
-        // If queue is oversize, get rid of last
-        if (_queue.Count > _solution.Length)
+        curGem.ChangeEmission(true);
+
+        // If queue is oversize, get rid of excess
+        while (_queue.Count > _solution.Length)
         {
             _queue.Dequeue();
         }

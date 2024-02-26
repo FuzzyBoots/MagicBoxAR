@@ -1367,6 +1367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _color: 2
+  _emissionColor: {r: 0, g: 0.059974432, b: 1, a: 0}
 --- !u!114 &6237660827984264858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1623,6 +1624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _color: 1
+  _emissionColor: {r: 0.061616182, g: 1, b: 0, a: 0}
 --- !u!114 &1657401145728193211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1871,6 +1873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _color: 0
+  _emissionColor: {r: 1, g: 0, b: 0, a: 0}
 --- !u!114 &8471075531875652543
 MonoBehaviour:
   m_ObjectHideFlags: 0
